@@ -1,0 +1,122 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+
+.form-title {
+  font-size: 48px;
+  color: #ea580c;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .form-title {
+    font-size: 36px;
+  }
+}
+
+.user-container {
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  border-radius: 16px;
+  min-height: 310px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 35px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  max-width: 550px;
+}
+
+.input-label {
+  color: #131313;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.input {
+  color: #131415;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  height: 30px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+@media screen and (max-width: 556px) {
+  .input {
+    width: 75%;
+  }
+}
+
+.submit-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #ea580c;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .submit-button {
+    width: 100%;
+  }
+}
+
+.error-field {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.error-msg {
+  align-self: start;
+  font-size: 12px;
+  margin-top: -15px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+
+.line {
+  height: 2px;
+  width: 90%;
+  background-color: black;
+}
+.image {
+  height: 100px;
+  border-radius: 28px;
+  width: 100px;
+  margin-top: 15px;
+}
